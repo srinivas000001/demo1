@@ -32,7 +32,7 @@ http://www.springframework.org/schema/mvc
 <mvc:annotation-driven/>
 
 
-<mvc:resources location="/resources" mapping="/resources/**"></mvc:resources>
+<mvc:resources location="/resources/" mapping="/resources/**"></mvc:resources>
 
 
 </beans>

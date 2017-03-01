@@ -1,10 +1,10 @@
 
 <%@ page isELIgnored="false" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<spring:url value="/resources/images" var="c"></spring:url>
-<spring:url value="/resources/fonts" var="f"></spring:url>
-<spring:url value="/resources/js" var="j"></spring:url>
-<spring:url value="/resources/css" var="cs"></spring:url>
+<spring:url value="/resources/images" var="c"/>
+<spring:url value="/resources/fonts" var="f"/>
+<spring:url value="/resources/js" var="j"/>
+<spring:url value="/resources/css" var="cs"/>
 
 
 <!DOCTYPE html>
@@ -27,7 +27,7 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       
-      <li> <a href="productdetails">Products</a></li>
+      <li> <a href="productsdetails">Products</a></li>
   
       </li>
       

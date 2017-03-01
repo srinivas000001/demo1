@@ -34,18 +34,18 @@ public class PageController {
 	    
 	   }
 	
-	@RequestMapping("/productdetails")	
+	@RequestMapping("/productsdetails")	
 	public ModelAndView products() 
 	{
-		ModelAndView mv=new ModelAndView("productdetails");
+		ModelAndView mv=new ModelAndView("productsdetails");
 		return mv;
 	    
 	   }
 
-	@RequestMapping("/view1")	
+	@RequestMapping("/product")	
 	public ModelAndView view() 
 	{
-		ModelAndView mv=new ModelAndView("view1");
+		ModelAndView mv=new ModelAndView("product");
 		return mv;
 	    
 	   }

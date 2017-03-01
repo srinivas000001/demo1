@@ -1,9 +1,9 @@
 <%@ page isELIgnored="false" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<spring:url value="/resources/images" var="c"></spring:url>
-<spring:url value="/resources/fonts" var="f"></spring:url>
-<spring:url value="/resources/js" var="j"></spring:url>
-<spring:url value="/resources/css" var="cs"></spring:url>
+<spring:url value="/resources/images" var="c"/>
+<spring:url value="/resources/fonts" var="f"/>
+<spring:url value="/resources/js" var="j"/>
+<spring:url value="/resources/css" var="cs"/>
 
 
 <!DOCTYPE html>
@@ -64,7 +64,7 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       
-      <li> <a href="productdetails">Products</a></li>
+      <li> <a href="productsdetails">Products</a></li>
   
       </li>
       
@@ -127,6 +127,7 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+
 </div>
 
 <div class="container text-center">
@@ -134,6 +135,7 @@
   <p><em>We love music!</em></p>
   <p>We have created a fictional band website. Lorem ipsum..</p>
   <br>
+
   <div class="row">
     <div class="col-sm-4">
       <p class="text-center"><strong>Piono</strong></p><br>
@@ -172,6 +174,8 @@
       </div>
     </div>
   </div>
+  
+  
 </div>
 
 </body>
