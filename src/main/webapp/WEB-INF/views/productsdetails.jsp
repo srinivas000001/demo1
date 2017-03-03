@@ -13,9 +13,9 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="${cs}/bootstrap.min.css">
-  <script src="${j}/jquery.min.js"></script>
-  <script src="${j}/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="${cs}/bootstrap.min.css">
+    <script src="${j}/jquery.min.js"></script>
+    <script src="${j}/bootstrap.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-inverse">
@@ -70,7 +70,7 @@
           <div class="caption">
  <p>Saffire Kids Jazz Drum  </p>
 <p>Price  :$25.00 </p>
-<p><a href="view1"><button type="button" class="btn btn-primary">View Details</button> </a>
+<p><a href="product"><button type="button" class="btn btn-primary">View Details</button> </a>
           </div>
       </div>
     </div>

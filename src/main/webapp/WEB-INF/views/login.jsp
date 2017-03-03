@@ -26,6 +26,8 @@
       
       <li> <a href="productsdetails">Products</a></li>
   
+     <li> <a href="productslist">ViewProducts</a>
+  
       </li>
       
     </ul>

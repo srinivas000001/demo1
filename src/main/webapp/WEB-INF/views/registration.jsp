@@ -25,7 +25,9 @@
       
       <li> <a href="productsdetails">Products</a></li>
      
-      
+
+     <li> <a href="productslist">ViewProducts</a>
+        
     </ul>
     <ul class="nav navbar-nav navbar-right">
       
